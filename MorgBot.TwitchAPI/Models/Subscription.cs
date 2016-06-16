@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 namespace MorgBot.TwitchAPI.Models
 {
     [JsonObject("subscriptions")]
-    public class Subscription
+    public class Subscription : TwitchResponse
     {
         [JsonProperty("_id")]
         public string Id { get; set; }

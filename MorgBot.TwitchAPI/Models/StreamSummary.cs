@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace MorgBot.TwitchAPI.Models
 {
-    class StreamSummary : TwitchResponse
+    public class StreamSummary : TwitchResponse
     {
         [JsonProperty("viewers")]
         public long Viewers { get; set; }
