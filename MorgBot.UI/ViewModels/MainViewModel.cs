@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MorgBot.GameWispAPI
+namespace MorgBot.UI.ViewModels
 {
-    public class GameWispAPI
+    public class MainViewModel : ViewModel
     {
     }
 }

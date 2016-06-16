@@ -90,6 +90,7 @@
     <Compile Include="Models\TwitchResponse.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\Video.cs" />
+    <Compile Include="OAuth\TwitchOauth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
