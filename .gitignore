@@ -1,0 +1,16 @@
+*.suo
+MorgBot.BeamAPI/Properties/
+MorgBot.BeamAPI/obj/
+MorgBot.DB/Properties/
+MorgBot.DB/obj/
+MorgBot.GameWispAPI/Properties/
+MorgBot.GameWispAPI/obj/
+MorgBot.HitboxAPI/Properties/
+MorgBot.HitboxAPI/obj/
+MorgBot.TwitchAPI/Properties/
+MorgBot.TwitchAPI/obj/
+MorgBot.UI/Properties/
+MorgBot.UI/bin/
+MorgBot.UI/obj/
+MorgBot.YoutubeAPI/Properties/
+MorgBot.YoutubeAPI/obj/
