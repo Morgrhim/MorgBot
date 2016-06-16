@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorgBot.UI", "MorgBot.UI\MorgBot.UI.csproj", "{A8C41C93-4126-46DD-844A-48275E18E13D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorgBot.BeamAPI", "MorgBot.BeamAPI\MorgBot.BeamAPI.csproj", "{57265532-AECF-44C7-BEAF-F041DA6E96EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorgBot.TwitchAPI", "MorgBot.TwitchAPI\MorgBot.TwitchAPI.csproj", "{F13A0552-44B0-45AF-BE78-C6732D2FAFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorgBot.HitboxAPI", "MorgBot.HitboxAPI\MorgBot.HitboxAPI.csproj", "{1BF969B9-C672-4E48-9D27-EB920922240D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorgBot.GameWispAPI", "MorgBot.GameWispAPI\MorgBot.GameWispAPI.csproj", "{5C069CAC-3BC0-4216-891A-62C31AB82055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorgBot.YoutubeAPI", "MorgBot.YoutubeAPI\MorgBot.YoutubeAPI.csproj", "{1CD659DF-A218-48ED-BF4D-E83167F69496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorgBot.DB", "MorgBot.DB\MorgBot.DB.csproj", "{19AA0603-A3F9-4168-90C4-12688144513C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8C41C93-4126-46DD-844A-48275E18E13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C41C93-4126-46DD-844A-48275E18E13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C41C93-4126-46DD-844A-48275E18E13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C41C93-4126-46DD-844A-48275E18E13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57265532-AECF-44C7-BEAF-F041DA6E96EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57265532-AECF-44C7-BEAF-F041DA6E96EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57265532-AECF-44C7-BEAF-F041DA6E96EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57265532-AECF-44C7-BEAF-F041DA6E96EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13A0552-44B0-45AF-BE78-C6732D2FAFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13A0552-44B0-45AF-BE78-C6732D2FAFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13A0552-44B0-45AF-BE78-C6732D2FAFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13A0552-44B0-45AF-BE78-C6732D2FAFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF969B9-C672-4E48-9D27-EB920922240D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF969B9-C672-4E48-9D27-EB920922240D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF969B9-C672-4E48-9D27-EB920922240D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF969B9-C672-4E48-9D27-EB920922240D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C069CAC-3BC0-4216-891A-62C31AB82055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C069CAC-3BC0-4216-891A-62C31AB82055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C069CAC-3BC0-4216-891A-62C31AB82055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C069CAC-3BC0-4216-891A-62C31AB82055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD659DF-A218-48ED-BF4D-E83167F69496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD659DF-A218-48ED-BF4D-E83167F69496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD659DF-A218-48ED-BF4D-E83167F69496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD659DF-A218-48ED-BF4D-E83167F69496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AA0603-A3F9-4168-90C4-12688144513C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AA0603-A3F9-4168-90C4-12688144513C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AA0603-A3F9-4168-90C4-12688144513C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AA0603-A3F9-4168-90C4-12688144513C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

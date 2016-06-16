@@ -15,7 +15,7 @@ namespace MorgBot.TwitchAPI.Clients
         {
             this.oauth = oauth;
 
-            var user = this.GetMyUser();
+            var user = GetMyUser();
 
             if (user == null || String.IsNullOrWhiteSpace(user.Name))
             {
