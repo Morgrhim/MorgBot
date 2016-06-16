@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MorgBot.TwitchAPI
+namespace MorgBot.TwitchAPI.Clients
 {
-    public class TwitchAPI
+    class TwitchReadOnlyClient
     {
     }
 }
