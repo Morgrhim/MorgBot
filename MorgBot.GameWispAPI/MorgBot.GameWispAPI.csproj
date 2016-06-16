@@ -60,6 +60,7 @@
     <Compile Include="Models\ChannelInfoData.cs" />
     <Compile Include="Models\ChannelInfoData2.cs" />
     <Compile Include="Models\ChannelInfoData3.cs" />
+    <Compile Include="Models\SubscriberForChannel.cs" />
     <Compile Include="Models\SubscriberLinks.cs" />
     <Compile Include="Models\ChannelSubscribersCursor.cs" />
     <Compile Include="Models\ChannelInfoLinks.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Models\ChannelInfoTwitch.cs" />
     <Compile Include="Models\ChannelInfoYoutube.cs" />
     <Compile Include="Models\SubscriberUser.cs" />
+    <Compile Include="Models\Tier.cs" />
     <Compile Include="Models\TierData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
