@@ -33,14 +33,11 @@
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
                         <ScrollViewer Grid.Column="0" Grid.Row="0" VerticalScrollBarVisibility="Auto">
-                            <TextBox>
-
-                            </TextBox>
+                            <ListBox Name="ChatView" ItemsSource="{Binding ChatMessages}" 
+                                     ItemTemplate="{StaticResource ChatView}" Margin="5"/>
                         </ScrollViewer>
                         <ScrollViewer Grid.Column="1" Grid.Row="0" VerticalScrollBarVisibility="Auto">
-                            <TextBox>
-
-                            </TextBox>
+                            <ListBox Margin="5"/>
                         </ScrollViewer>
                     </Grid>
                     <Grid Grid.Column="0" Grid.Row="1">

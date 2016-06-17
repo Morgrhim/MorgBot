@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:MorgBot.UI"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <DataTemplate x:Key="ChatView">
+            <TextBlock>
+                <InlineUIContainer>
+                    <Image Source="{Binding Icon}" Height="15" Width="15"/>
+                </InlineUIContainer>
+                    <Run Text="{Binding Message}"/>
+            </TextBlock>
+        </DataTemplate>
     </Application.Resources>
 </Application>

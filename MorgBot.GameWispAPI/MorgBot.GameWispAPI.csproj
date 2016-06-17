@@ -50,8 +50,6 @@
   <ItemGroup>
     <Compile Include="Enums\IPagedList.cs" />
     <Compile Include="Helpers\GameWispHelper.cs" />
-    <Compile Include="Helpers\PagedList.cs" />
-    <Compile Include="Helpers\PagingInfo.cs" />
     <Compile Include="Models\ChannelSubscriber.cs" />
     <Compile Include="Models\SubscriberData.cs" />
     <Compile Include="Models\SubscriberData2.cs" />
